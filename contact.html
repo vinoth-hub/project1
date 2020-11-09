@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <!-- bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- fontawesome icon -->
+<script src="https://kit.fontawesome.com/bc6a444c58.js" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/7586ef9f4d.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+
+    <!-- nav-bar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark ">
+      <a class="navbar-brand" href="#">
+    <img src="images/logo.png" width="65" height="65" alt="">
+    </a>
+    <a class="navbar-brand sub-header-size mr-auto" href="index.html">RCUBE Futsal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto  para-size">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutus.html">ABOUT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="media.html">MEDIA</a>
+        </li><li class="nav-item active">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+
+      </ul>
+    </div>
+    </nav>
+
+
+    <div  class="colored-section top-spacing">
+      <h1 class="landing-page">CONTACT FORM</h1>
+    </div>
+
+
+    <section class="spacing">
+
+    <div class="contact-form">
+      <h2>Contact us</h2>
+      <div id="error_message"></div>
+      <form id="myform" onsubmit="return validate();">
+        <div class="input_field-contact">
+            <input type="text" placeholder="Name" id="name">
+        </div>
+        <div class="input_field-contact">
+             <!-- <input type="text" placeholder="Subject" id="subject"> -->
+    				<select name="" id="subject">
+    					<option>Select Ur Option</option>
+    						<option>Regarding Slot Booking</option>
+    		  			<option>Regarding Coaching</option>
+    					</optgroup>
+      			</select>
+        </div>
+        <div class="input_field-contact">
+            <input type="text" placeholder="Phone" id="phone">
+        </div>
+        <div class="input_field-contact">
+            <input type="text" placeholder="Email" id="email">
+        </div>
+        <div class="input_field-contact">
+            <textarea placeholder="Message" id="message"></textarea>
+        </div>
+        <div class="button_contact">
+            <input type="submit">
+        </div>
+      </form>
+    </div><br>
+    </section>
+
+    <!-- footer -->
+    <footer class="colored-section">
+
+      <div class="container">
+      <div class="row">
+        <div class="footer-left-content">
+          <img src="images/logo.png" alt="">
+          <p class="para-size">R-CUBE Fustal</p>
+        </div>
+        <div class="footer-right-content">
+            <p class="para-size">  RG Nagar, Sahadevan Salai Rd, vengaivasal, Medavakkam,<br>chennai-600100.</p>
+        </div>
+        <div class="footer-right-content-2">
+          <h5>Mobile-No</h5>
+          <p class="para-size">Tel-No. 9841868777</p>
+        </div>
+      </div>
+      </div>
+      <div class="container icons">
+      <i class="fab fa-facebook footer-icon"></i>
+      <i class="fab fa-instagram-square footer-icon"></i>
+      <i class="fas fa-map-marker-alt footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+      <p class="para-size">© Copyright 2020 R-CUBE Futsal</p>
+      <p>@Powered by Viskdom Solutions</p>
+
+      </div>
+
+    </footer>
+
+<script src="scripts.js"></script>
+
+  </body>
+</html>

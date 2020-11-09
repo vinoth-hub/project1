@@ -1,0 +1,299 @@
+.colored-section{
+  background-color:#ff414d;
+  color: white;
+}
+.white-section{
+  /* color:#ec0101; */
+  color: #ff414d;
+}
+.spacing{
+  margin: 100px 0px;
+}
+.header-spacing{
+padding:  20px;
+}
+body{
+  margin:0 ;
+  text-align: center;
+}
+p {
+  font-size: 1.2rem;
+}
+.sub-header-size
+{
+  font-size: 2rem;
+}
+
+/* nav-bar */
+nav{
+/* width: 100%; */
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* small section-about slot booking and contact number */
+.cover
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1578686333169-3daab0a1fc87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  /* background-image: url(https://images.unsplash.com/photo-1536122985607-4fe00b283652?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1405&q=80); */
+  background-size:cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+
+/* .cover img
+{
+  float: right;
+  margin-top: 15%;
+} */
+
+/* text at slot booking */
+/* .text-block
+{
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  padding: 25px 60px;
+  border-radius: 50px;
+  margin: 380px 100px 0px 50px;
+} */
+
+/* homepage-2 */
+
+.spl_container{
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px 30%;
+}
+@media (max-width:767px){
+  .spl_container{
+    padding: 10px 10%;
+  }
+}
+ .normal_container{
+  padding:20px 10% 0 10%;
+  text-align: justify;
+  box-sizing: border-box;
+
+}
+
+/* homepage3 */
+
+.homepage3-content
+{
+  padding: 0 22%;
+}
+@media (max-width:767px){
+  .homepage3-content{
+    padding: 0 10%;
+  }
+}
+/* homepage4 our-ACCESSORIES*/
+.homepage4
+{
+  padding-bottom:  20px;
+}
+.homepage4-content
+{
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.homepage4-content img
+{
+  margin: 20px;
+}
+@media (max-width:990px){
+  .accessories-space{
+    padding: 10px 20px;
+  }
+}
+       /* **********homepage********** */
+
+/* about us - nav */
+
+.top-spacing{
+  height: 250px;
+}
+.landing-page {
+  color:#d2d3c9;
+  display: flex;
+  flex-direction: row;
+  padding-top: 175px;
+}
+.landing-page:before, h1:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #d2d3c9;
+  margin: auto;
+}
+
+                /* about-content */
+
+.about-content{
+  font-weight: bold;
+  padding: 0 23% 0 23%;
+}
+@media (max-width:767px){
+  .about-content{
+    padding: 0 10%;
+  }
+}
+
+.about-content img
+{
+  height: 20px;
+  weight:20px;
+}
+
+
+/* carousel */
+.arrow-img
+{
+    height: 25px;
+    width: 25px;
+}
+@media (max-width:767px){
+  .arrow-img{
+    height: 18px;
+    width: 18px;
+    margin-top: 60px;
+  }
+}
+
+/* features */
+.about-features
+{
+  padding:30px ;
+}
+  .features img
+  {
+    padding: 10px;
+  margin: 10px;
+  }
+
+      /* *************aboutus************** */
+
+/* form */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.contact-form{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  max-width: 400px;
+  height: 500px;
+  width: 100%;
+  background: #F9F9F9;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #f9f9f9;
+}
+
+.contact-form h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ff414d;
+}
+
+.contact-form .input_field-contact{
+  margin-bottom: 15px;
+}
+
+.contact-form .input_field-contact input[type="text"],
+.contact-form textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 5px;
+}
+
+.contact-form textarea{
+  resize: none;
+  height: 80px;
+}
+
+.contact-form .button_contact input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 6px;
+  text-align: center;
+  width: 100%;
+  background: #ff414d;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.contact-form select
+{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 12px;
+}
+
+            /* ****contact-form****** */
+footer{
+  padding: 10px;
+}
+footer img
+{
+  height: 100px;
+  width: auto;
+}
+.footer-left-content
+{
+  float: left;
+  width: 33%;
+  padding: 15px;
+}
+.footer-right-content
+{
+  float: right;
+  width: 33%;
+  /* padding-top: 15px; */
+  padding: 25px 0px;
+  line-height:35px;
+}
+.footer-right-content-2
+{
+  float: right;
+  width: 33%;
+  padding: 45px 0px;
+}
+
+.icons
+{
+  text-align: center;
+}
+.footer-icon
+{
+  padding: 20px 12px;
+  font-size: 30px;
+}
